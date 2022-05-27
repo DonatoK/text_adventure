@@ -10,7 +10,7 @@ from expand import *
 
 
 def main():
-   # end story is the varible I will use to end the program.
+   # end story is the variable I will use to end the program.
    endStory = 2
    # The while loop will keep repeating until the break of set by endStory is
    # triggered
@@ -21,7 +21,7 @@ def main():
        # this is how your story can take input and read it back out
        userInput = input("Please enter something: ")
        print("user input: ", userInput)
-       # notice input can output to terminal. Look up the input fuction for python
+       # notice input can output to terminal. Look up the input function for python
        # to see why.
        userInput = input("""neat, now enter something from the choices i give you
                  option 1: enter a F to end
@@ -33,15 +33,15 @@ def main():
            print("into the expanded module this code will go")
            moduleReturns = newFunction(userInput)
            print("wow you really put ", moduleReturns)
-           print("goodbye, rerun main.py to play")
+           print("goodbye, rerun python main.py to play")
 # This ends the story
            endStory = 0
        elif(userInput == "F"):
-           print("goodbye, rerun main.py to play")
+           print("goodbye, rerun python main.py to play")
 # This also ends the story
            endStory = 0
 
-       print("the option was case sensitive or you didnt selected from pre-determined options")
+       print("the option was case sensitive or you didn't selected from per-determined options")
 
 
 # Remove this and try to run your code to try and understand what it does so
