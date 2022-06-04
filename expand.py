@@ -13,6 +13,8 @@ def newFunction(option):
     localUserInput = input("please enter something new")
     return localUserInput
 
+
 def threeOptions(threeItemList):
     # this function will take in a 3 item list, display the options, ask a User
     # For an input and return the selected option
+    return userSelection
