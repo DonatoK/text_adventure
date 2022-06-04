@@ -12,3 +12,7 @@ def newFunction(option):
     print("The user input:", option)
     localUserInput = input("please enter something new")
     return localUserInput
+
+def 3_option_choice(choiceList):
+    # this function takes a list of 3 options, prints them and returns the selected one
+
