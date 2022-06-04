@@ -16,10 +16,42 @@ def newFunction(option):
     optionList = ["cup", "orange", "banana"]
     # before calling threeOptions make sure to print out the question for the user
     print("There are three things on the table what would you like?")
-    localUserInput = threeOptions(optionList)
+    checkInput = 1
 
+    while(checkInput):
+        localUserInput = threeOptions(optionList)
+        if(localUserInput == "1"):
+            print("the first option")
+            checkInput = 0
+        elif(localUserInput == "2"):
+            print("the second option")
+            checkInput = 0
+        elif(localUserInput == "3"):
+            print("the third option")
+            checkInput = 0
+        else:
+            print("enter the correct value")
+    conditionList = ["1", "2", "3"]
+    localUserInput = threeConditions(conditionList, optionList)
     # Printing the prompt before and the result after allows for function reuse
     return localUserInput
+
+
+def threeConditions(conditions, optionList):
+    endloop = 1
+    localUserInput = threeOptions(optionList)
+    while(endloop):
+        if(localUserInput == conditions[0]):
+            print("the first option")
+            endloop = 0
+        elif(localUserInput == conditions[1]):
+            print("the second option")
+            endloop = 0
+        elif(localUserInput == conditions[2]):
+            print("the third option")
+            endloop = 0
+        else:
+            print("enter the correct value")
 
 
 def threeOptions(threeItemList):

@@ -14,6 +14,7 @@ def main():
    endStory = 2
    # The while loop will keep repeating until the break of set by endStory is
    # triggered
+
    while(endStory > 1):
        # terminal prints can be over multiple lines using """ print """ format,
        # instead of the regular  "print" give it a try
@@ -40,8 +41,11 @@ def main():
            print("goodbye, rerun python main.py to play")
 # This also ends the story
            endStory = 0
+       else:
+           print(
+              "the option was case sensitive or you didn't select from per-determined options")
 
-       print("the option was case sensitive or you didn't selected from per-determined options")
+       print("always prints at the end")
 
 
 # Remove this and try to run your code to try and understand what it does so
