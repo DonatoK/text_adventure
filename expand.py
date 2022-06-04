@@ -8,7 +8,7 @@ def newFunction(option):
     # share your game with will not see your code when interacting with it.
 
     # you can ask things like math questions and make choices on if the user gets
-    # it right or not.
+    # it right or not.s
     print("The user input:", option)
     localUserInput = input("please enter something new")
     print(localUserInput)
@@ -17,6 +17,7 @@ def newFunction(option):
     # before calling threeOptions make sure to print out the question for the user
     print("There are three things on the table what would you like?")
     localUserInput = threeOptions(optionList)
+
     # Printing the prompt before and the result after allows for function reuse
     return localUserInput
 
