@@ -17,4 +17,5 @@ def newFunction(option):
 def threeOptions(threeItemList):
     # this function will take in a 3 item list, display the options, ask a User
     # For an input and return the selected option
+    userSelection = input()
     return userSelection
