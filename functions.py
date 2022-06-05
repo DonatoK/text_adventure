@@ -3,6 +3,12 @@
 def threeConditions(conditions, optionList):
     endloop = 1
     localUserInput = threeOptions(optionList)
+    # THis is the threeoptions function. Notice the changes required to make it
+    # work here vs how it works in its function.
+    #print(optionList[0], ": 1\n", optionList[1],
+    #      ": 2\n", optionList[2], ": 3\n")
+    #localUserInput = input()
+
     while(endloop):
         if(localUserInput == conditions[0]):
             print("the first option")
