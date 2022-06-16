@@ -2,6 +2,8 @@
 # fill it in and tell a story that would be fun to play
 
 from expand import *
+from GUI import *
+
 # I use multiple modules as an example for you to try and replicate to keep your
 # story neat and get used to using them
 
@@ -14,7 +16,7 @@ def main():
    endStory = 2
    # The while loop will keep repeating until the break of set by endStory is
    # triggered
-
+   endstory = launch_GUI()
    while(endStory > 1):
        # terminal prints can be over multiple lines using """ print """ format,
        # instead of the regular  "print" give it a try
@@ -35,7 +37,7 @@ def main():
            moduleReturns = newFunction(userInput)
            print("wow you really put ", moduleReturns)
            print("goodbye, rerun python main.py to play")
-# This ends the story
+           # This ends the story
            endStory = 0
        elif(userInput == "F"):
            print("goodbye, rerun python main.py to play")
