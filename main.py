@@ -3,8 +3,8 @@
 
 from expand import *
 from GUI import *
-
 # I use multiple modules as an example for you to try and replicate to keep your
+from a_game_module import *
 # story neat and get used to using them
 
 # Basic control flow is what this file mostly deals with and the end goal is
