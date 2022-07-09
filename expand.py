@@ -39,6 +39,6 @@ def newFunction(option):
     # Printing the prompt before and the result after allows for function reuse
     return localUserInput
 
-def 3_option_choice(choiceList):
+def three_option_choice(choiceList):
     # this function takes a list of 3 options, prints them and returns the selected one
-
+    return nothing

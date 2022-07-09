@@ -16,6 +16,8 @@ def main():
    endStory = 2
    # The while loop will keep repeating until the break of set by endStory is
    # triggered
+   game= peppers_day()
+   print(" peppers day finished with: ", game)
    endstory = launch_GUI()
    while(endStory > 1):
        # terminal prints can be over multiple lines using """ print """ format,
